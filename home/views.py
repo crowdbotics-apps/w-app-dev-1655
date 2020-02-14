@@ -8,6 +8,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'ullasoc', 'url': 'https://github.com/cherijs/generator-ullasoc'},
         {
             "name": "django-allauth",
             "url": "https://pypi.org/project/django-allauth/0.38.0/",
